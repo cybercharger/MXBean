@@ -11,4 +11,6 @@ public interface TaskMXBean {
     public void setInfo(Info info);
 
     public void updateInfo(Info info);
+
+    public Info[] getInfoArray();
 }
